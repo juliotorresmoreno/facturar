@@ -8,9 +8,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 
 public class DetFacturaControlador {
-
     Repositorio<DetFactura> regDetFactura;
-
     public DetFacturaControlador() {
         regDetFactura = new Repositorio<>();
         regDetFactura.cargar("DetFactura");
